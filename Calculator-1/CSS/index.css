@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
-
+body{
+    background:linear-gradient(90deg,red,yellow) no-repeat center fixed;
+}
 .button{
     width: 50px;
     height: 50px;
@@ -13,4 +16,19 @@
 .display {
     width:220px;
     font-size: 25px;
+}
+
+.box {
+    background : #9fe6e0;
+    margin-top: 50px;
+    width:fit-content;
+    padding: 15px;
+    border: 3px solid black;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 10px;
 }
