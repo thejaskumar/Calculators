@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(60deg, red, yellow) no-repeat center fixed;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 45px;
+}
+
+.container {
+    position: relative;
+    width: 345px;
+    height: 570px;
+    background: #000000;
+    border-radius: 20px;
+    top: 20px;
+    margin: auto;
+}
+
+#result {
+    width: 320px;
+    height: 125px;
+    margin-left: 10px;
+    position: relative;
+    border-bottom: 5px solid #ffffff;
+
+}
+
+#history {
+    height: 45px;
+    text-align: right;
+    padding-top: 20px;
+
+}
+
+#value {
+    color: #968fa5;
+    font-size: 25px;
+}
+
+#output {
+    height: 65px;
+    text-align: right;
+}
+
+#output-value {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#keys {
+    height: 400px;
+}
+
+.del,
+.num,
+.opr {
+    width: 84px;
+    height: 84px;
+    font-size: 35px;
+    border-width: 0;
+    background: #000000;
+    cursor: pointer;
+    outline: 0;
+}
+
+.num {
+    color: #ffffff;
+}
+
+.opr {
+    color: #FFD600;
+}
+
+.del {
+    color: #05FF00;
+}
+
+#equ {
+    height: 168px;
+    color: #FA00FF;
+}
+
+#C {
+    color: #FF0000;
+}
+
+p {
+    color: #ffffff;
+}
